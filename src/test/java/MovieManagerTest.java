@@ -11,6 +11,7 @@ public class MovieManagerTest {
         String[] actual = manager.findAll();
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void addMovieTest1() {
         MovieManager manager = new MovieManager();
